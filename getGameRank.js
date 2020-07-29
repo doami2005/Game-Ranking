@@ -10,5 +10,5 @@ function getGameRanking(n) {
     '• 모바일 무료 게임 순위입니다.'+Lw,
     Ll, parse, Ll, 'doami'
     ].join('\n');
-    return n ? [result] : result;
+    return n ? [[result]] : result;
 };
